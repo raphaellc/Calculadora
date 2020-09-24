@@ -7,6 +7,7 @@ public:
 	Calculadora();
 	~Calculadora();
 	float somar(float opA, float opB);
+	float multiplicar(float opA, float opB);
 };
 
 #endif
