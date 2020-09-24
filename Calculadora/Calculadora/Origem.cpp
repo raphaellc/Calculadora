@@ -6,7 +6,7 @@ int main()
 	std::cout << "A Soma dos valores 3 + 5 e igual: " << calc->somar(3.0f, 5.0f) << std::endl;
 	std::cout << "A Subtracao dos valores 3 - 5 e igual: " << calc->subtrair(3.0f, 5.0f) << std::endl;
 	std::cout << "A Multiplicacao dos valores 3 x 5 e igual: " << calc->multiplicar(3.0f, 5.0f) << std::endl;
-	std::cout << "A Divisao dos valores 3 / 5 e igual: " << calc->dividir(3.0f, 0.0f) << std::endl;
+	std::cout << "A Divisao dos valores 3 / 5 e igual: " << calc->dividir(3.0f, 5.0f) << std::endl;
 
 	system("pause");
 	return 1;
