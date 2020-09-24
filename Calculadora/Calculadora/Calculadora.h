@@ -9,6 +9,7 @@ public:
 	float somar(float opA, float opB);
 	float subtrair(float opA, float opB);
 	float multiplicar(float opA, float opB);
+	float dividir(float opA, float opB); // A/B - B nao pode ser zero.
 };
 
 #endif

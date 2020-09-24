@@ -24,3 +24,10 @@ float Calculadora::multiplicar(float opA, float opB)
 {
 	return opA * opB;
 }
+float Calculadora::dividir(float opA, float opB)
+{
+	if (opB != 0)
+		return opA / opB;
+	else
+		return 0;
+}
